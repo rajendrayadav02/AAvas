@@ -20,7 +20,8 @@ class Body extends StatelessWidget {
                 "OTP Verification",
                 style: headingStyle,
               ),
-              Text("We sent your code to +91 898 860 ***"),
+              Text("We sent your code to +91"
+                  " 898 860 ***"),
               buildTimer(),
               OtpForm(),
               SizedBox(height: SizeConfig.screenHeight * 0.1),
